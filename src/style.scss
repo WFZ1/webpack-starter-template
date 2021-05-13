@@ -1,0 +1,58 @@
+/**
+ * --------------------------------------------------------------------------------
+ *  FONTS
+ * --------------------------------------------------------------------------------
+ */
+
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("./assets/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/**
+ * ----------------------------------------------------------------------------
+ *  MAIN
+ * ----------------------------------------------------------------------------
+ */
+
+$body-color: #fff;
+
+body {
+  margin: 25px;
+  color: $body-color;
+  background-image: url("./assets/images/bg.jpg");
+  background-size: cover;
+  font-size: 42px;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  display: block;
+  margin: 30px 0;
+}
+
+button {
+  display: block;
+  margin: 30px 0 50px;
+  font-size: 32px;
+}
+
+p {
+  display: inline-block;
+  padding: 5px 10px;
+  border: dashed 5px #255ea8;
+  font-size: 32px;
+  color: #255ea8;
+}
