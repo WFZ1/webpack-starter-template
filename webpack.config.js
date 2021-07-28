@@ -47,8 +47,8 @@ module.exports = ({ develop }) => ({
   },
   plugins: [
     new HtmlWebpackPlugin({
-      favicon: './dist/favicon.ico',
-      template: './src/index.html'
+      favicon: './public/favicon.ico',
+      title: 'TITLE'
     }),
     new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),
     new CopyPlugin({ patterns: [{ from: './public' }]}),
