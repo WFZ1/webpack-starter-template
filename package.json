@@ -9,6 +9,7 @@
     "pretty": "prettier --write src"
   },
   "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
     "copy-webpack-plugin": "^8.1.1",
